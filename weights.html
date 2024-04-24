@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becca's Website</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+        }
+        
+    
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+   
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a {
+            font-family: Verdana, Tahoma, sans-serif, Times, serif;
+            text-decoration: underline;
+            text-decoration-thickness: 1.25px ;
+            color: #333;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        
+        nav a:hover {
+            color: #007bff;
+        }
+        
+     
+        main {
+            padding: 20px;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        
+        h2 {
+            font-family: Impact, 'Arial Narrow Bold', sans-serif;
+            font-size: 33px;
+            font-weight: 100;
+        }
+        
+        h3 {
+            font-family: unset;
+            font-size: 26px;
+        }
+        
+        p {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+     
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .wrapper {
+            margin: auto;
+            width: 500px;
+        }
+        
+        .white {
+            color: white
+        }
+        
+        .frame {
+            height: 300px ;
+            border: 3px solid;
+            border-color: rgb(6, 7, 55);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:auto;
+        }
+        
+        .video {
+            width: 100%;
+            height: 400px;
+        }
+        
+        ol {
+            text-decoration: underline ;
+            text-decoration-thickness: 1.25px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Becca's Website</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="weights.html">Weight Training</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Workouts Section -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Full workouts</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- Workout 1 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Leg day</h3>
+                                <p>
+                                    Hitting leg day is awesome because it not only strengthens major muscle groups like the quadriceps, hamstrings, and glutes but also enhances overall athleticism and stability. Additionally, leg exercises promote better metabolic health by stimulating large muscle groups, aiding in fat loss and improving cardiovascular endurance. Incorporating leg workouts into your routine can also lead to better posture and reduced risk of injury in various physical activities.</p>
+                            </div>
+                        </div>
+                        <ol>
+                            <li>Hamstrings and Glutes
+                                <ul style="padding-left: 20px;">
+                                    <li style="text-decoration: none;">Sumo Deadlift</li>
+                                    <li style="text-decoration: none;">Forward-leaning dumbbell squat</li>
+                                    <li style="text-decoration: none;">KAS Hip Thrust</li>
+                                    <li style="text-decoration: none;">Barbell Glute Bridge</li>
+                                    <li style="text-decoration: none;">Hamstring curls</li>
+                                </ul>
+                            </li>
+                            <li>Quads and Calves
+                                <ul style="padding-left: 20px;">
+                                    <li style="text-decoration: none;">Front squat</li>
+                                    <li style="text-decoration: none;">Bulgarian split squat</li>
+                                    <li style="text-decoration: none;">Close-stance leg press</li>
+                                    <li style="text-decoration: none;">Calf raises</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                    <!-- Embedded YouTube video -->
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LGARBmm6hWY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col">
+                        <!-- Workout 2 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Upper body day</h3>
+                                <p>Hitting upper body day is awesome because it targets key muscle groups such as the chest, back, shoulders, and arms, fostering a balanced physique and improving overall strength. Additionally, upper body workouts contribute to functional fitness, enhancing daily activities like lifting, pushing, and pulling. Strengthening the upper body not only enhances aesthetic appeal but also boosts confidence and promotes better posture, leading to improved overall well-being.</p>
+                            </div>
+                        </div>
+                                 <!-- Embedded unordered list in an ordered list -->
+                                 <ol>
+                                    <li>Push
+                                        <ul style="padding-left: 20px;">
+                                            <li style="text-decoration: none;">Deficit push ups</li>
+                                            <li style="text-decoration: none;">Arnold presses</li>
+                                            <li style="text-decoration: none;">Zottman curls</li>
+                                            <li style="text-decoration: none;">Lateral Raises/Front Raises superset</li>
+                                            <li style="text-decoration: none;">Cable tricep extensions</li>
+                                        </ul>
+                                    </li>
+                                    <li>Pull
+                                        <ul style="padding-left: 20px;">
+                                            <li style="text-decoration: none;">Close-grip assisted pull ups</li>
+                                            <li style="text-decoration: none;">Single arm dumbbell rows</li>
+                                            <li style="text-decoration: none;">Cable rows</li>
+                                            <li style="text-decoration: none;">Face pulls</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Xc6XeF09Bos?start=287" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2>Let's build muscle together</h2>
+                        <a href="contact.html" style="background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 20px;">Contact me</a>
+                    </div> <img src="assets/gympic.jpg" alt="me at the gym" width="500" height="500">
+                </div>
+            </div>
+        </section>
+        <div class='tableauPlaceholder' id='viz1713972894923' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gy&#47;Gymprogress&#47;Exerciseweightovertime&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Gymprogress&#47;Exerciseweightovertime' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gy&#47;Gymprogress&#47;Exerciseweightovertime&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1713972894923');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        <!-- Additional content -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                
+                </div>
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+                        <!-- On-page anchor -->
+                        <a href="#">Jump to Top</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy Becca's Website 2024
